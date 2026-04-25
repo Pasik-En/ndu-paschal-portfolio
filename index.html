@@ -3,36 +3,180 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My-Personal-Profile</title>
     <link rel="stylesheet" href="./CSS/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
     <!-- Navigation Bar (Sticky)-->
     <header>
-
         <nav>
-            <div>Paschal</div>
+            <h1>Paschal</h1>
+            
             <ul>
                 <li> <a href="#home">My Home Page</a> </li>
                 <li> <a href="#about">About Me</a> </li>
                 <li> <a href="#skills">My Skills</a> </li>
-                <li> <a href="#project">Project</a> </li>
+                <li> <a href="#projects">Project</a> </li>
                 <li> <a href="#contact">My Contact</a> </li>
             </ul>
+
+            <div class="menus-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <!-- Mobile Toggle -->
+            <div class="mobile-menu" id="mobileMenu">
+                <a href="#home">My Home Page</a>
+                 <a href="#about">About Me</a>
+                <a href="#skills">My Skills</a> 
+                 <a href="#project">Project</a> 
+                 <a href="#contact">My Contact</a>
+            </div>
         </nav>
     </header>
 
     <!-- Hero Section -->
-
-    <div class="paschal">
         <section id="home">
-             <h1> Ndu Paschal </h1>
+             <h2> Hi, I'm Ndu Paschal </h2>
              <p> An aspiring Full Stack Developer</p>
-             <img src="" alt="My personal Photo">
-             <button> Download CV </button>
+             <div>
+                <img src="./images/NDU PSCHAL IKENNA.jpg" alt="My personal Photo">
+             </div>
+             <div>
+                 <a href="#projects" class="btn">View my work</a>
+             </div>
         </section>
-    </div>
+        
+        <section id="about">
+             <h2 class="section-title"> About Me </h2>
+
+        <article class="card">
+
+
+            <h3 class="line-space">My Background</h3>
+            <p>
+            I am a passionate developer focused on building responsive and user-friendly web applications. I enjoy solving real-world problems with clean code and modern technologies. Through this initiative, I am learning both front-end and back-end technologies, allowing me to understand how complete digital systems are designed, developed, and deployed. The program has given me the opportunity to strengthen my problem-solving skills and develop a deeper appreciation for how technology can be used to create impactful solutions.
+            </p>
+          
+            <h3 class="line-space"> My Journey into Tech</h3>
+            <p>
+            Being involved in this program is an important step in my journey toward becoming a skilled and versatile developer. It has not only improved my technical knowledge but also enhanced my discipline, teamwork, and communication skills. I am motivated to make the most of this opportunity, apply what I learn to practical challenges, and eventually contribute to building innovative solutions that can make a difference in my community and beyond.
+            </p>
+
+            <h3 class="line-space">My Motivation</h3>
+            <p>
+            What motivates me most is the opportunity to grow, create impact, and build a meaningful career in technology. Being part of this program has shown me that with the right skills, I can contribute to solutions that benefit my community and beyond. I am driven by the desire to become self-reliant, to keep improving, and to turn my knowledge into practical innovations that solve real challenges.
+            </p>
+             <img class="line-space img-circle" src="./images/My personal pic 2.jpg" alt="My personal Photo">
+        </article>      
+        </section>
+        
+        <section id="skills" class="skill">
+            <h2 class="section-title"> My Skills </h2>
+            <div class="skill-grid">
+                <div class="skill-card">
+                <div class="card">
+                    <span class="skill-text ">HTML</span>
+                <span><i class="fa-brands fa-html5"></i></span> 
+                </div>   
+                
+                <div class="card line-space">CSS3
+                <span><i class="fa-brands fa-css"></i></span></div>
+                
+                <div class="card line-space">
+                    Grid
+                <span><i class="fa-solid fa-grip"></i></span></div>
+                
+                <div class="card line-space">
+                    GIT
+                <span><i class="fa-brands fa-git"></i></span>
+                </div>
+
+            </div>
+        </section>
+        
+        <section id="projects">
+             <h2 class="section-title"> My Projects </h2>
+             <div class="projects-grid"> 
+                <article class="card">
+                    <h3> Portfolio Website </h3>
+                    <p>My Personal Profile. Coming soon</p>
+                    <div>HTML,CSS,JS</div>
+                    <img src="./images/image.png" alt="Photo of personal profile page">
+                    <a href="https://github.com/Pasik-En/personal-project-html.git">Github</a>
+                    <a href="https://pasik-en.github.io/ettp-group-19-project/">Live Demo</a>
+                </article>
+             </div>
+             <div class="team">
+                <h3> My HTML Team Project </h3>
+                <p> Sample of My Team Proposed E-market App. Coming soon.. </p>
+                <div>HTML,CSS,JAVASCRIPT</div>
+                <img src="./images/E -market.jpg" alt="Photo sample of my proposed E-market App">
+                <a href="https://github.com/Pasik-En/ETTP-group-19--project.git">Github</a>
+
+                <a href="https://pasik-en.github.io/ETTP-group-19--project/">Live Demo</a>
+             </div>
+        </section>
+        
+        <section id="contact">
+             <h2 class="section-title"> Contact Me </h2>
+            
+             <p>
+                If you’d like to collaborate, have a question, or just want to say hello, feel free to reach out.
+             </p>
+
+             <!-- Contact form  -->
+                <form>
+                    <input type="text" placeholder="Enter your name" required>
+
+                    <input type="email" placeholder="Your Email">
+
+                    <textarea rows="5" name="message" placeholder="Enter your message"></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+
+             <!-- Contact Me  -->
+              <div class="connect">
+                <h3>Connect with Me</h3>
+                <a href="pikenna71@gmail.com">
+                    <i class="fa-solid fa-at"></i>
+                </a>
+                <a href="https://www.github.com"> 
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <span>
+                    <i class="fa-solid fa-phone"></i>
+                </span>
+                <span>
+                    <a href="#">+2347035349699</a>
+                </span>
+              </div>
+        </section>
     
+
+    <footer>
+        <div>
+            <p>&copy;2026 Ndu Paschal. All Right reserved.</p>
+            <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https:www.tiktok.com"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+    </footer>
+
 </body>
 </html>
