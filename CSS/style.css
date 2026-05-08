@@ -60,12 +60,12 @@ nav a:hover { color: #38bdf8; }
       gap: 5px;
     }
 
-.menu-toggle {
+/* .menu-toggle {
       width: 25px;
       height: 3px;
       background: white;
       border-radius: 3px;
-    }
+    } */
     
 .mobile-menu {
       display: none;
