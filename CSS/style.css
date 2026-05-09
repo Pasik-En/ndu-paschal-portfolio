@@ -303,6 +303,22 @@ div.card:hover {
       color: #94a3b8;
     }
 
+    .btn-form button {
+      margin-bottom: 1rem;
+    }
+
+    .footer-links i {
+  width: 4rem;
+  font-size: 2rem;
+  margin-top: 1rem;
+    }
+
+    .connect i {
+      width: 2.5rem;
+      font-size: 1.5rem;
+      margin-top: 1rem;
+    }
+
     @media (max-width: 768px) {
       nav ul { display: none; }
       .menu-toggle { display: flex; }
