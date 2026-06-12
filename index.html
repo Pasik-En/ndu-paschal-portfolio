@@ -50,23 +50,30 @@
                 <a href="#home">My Home Page</a>
                  <a href="#about">About Me</a>
                 <a href="#skills">My Skills</a> 
-                 <a href="#project">Project</a> 
+                 <a href="#projects">Project</a> 
                  <a href="#contact">My Contact</a>
             </div>
         </nav>
     </header>
 
     <!-- Hero Section -->
-        <section id="home">
-             <h2> Hi, I'm Ndu Paschal </h2>
-             <p> An aspiring Full Stack Developer</p>
-             <div>
-                <img src="./images/NDU PSCHAL IKENNA.jpg" alt="My personal Photo">
-             </div>
-             <div>
+        <main>
+
+            <section id="home" class="home">
+            <div class="hero-main">
+            <div class="hero-content">
+                <h2> Hi, I'm <strong class="self">Ndu Paschal</strong> </h2>
+                <p> An aspiring Full Stack Developer</p>
                  <a href="#projects" class="btn">View my work</a>
              </div>
+                
+             <div class="hero-image">
+                <img src="./images/NDU PSCHAL IKENNA.jpg" alt="My personal Photo">
+                </div> 
+            </div>         
         </section>
+
+        </main>
         
         <section id="about">
              <h2 class="section-title"> About Me </h2>
@@ -117,27 +124,55 @@
         </section>
         
         <section id="projects">
-             <h2 class="section-title"> My Projects </h2>
-             <div class="projects-grid"> 
-                <article class="card">
-                    <h3> Portfolio Website </h3>
-                    <p>My Personal Profile. Coming soon</p>
-                    <div>HTML,CSS,JS</div>
-                    <img src="./images/image.png" alt="Photo of personal profile page">
-                    <a href="https://github.com/Pasik-En/personal-project-html.git">Github</a>
-                    <a href="https://pasik-en.github.io/ettp-group-19-project/">Live Demo</a>
-                </article>
-             </div>
-             <div class="team">
-                <h3> My HTML Team Project </h3>
-                <p> Sample of My Team Proposed E-market App. Coming soon.. </p>
-                <div>HTML,CSS,JAVASCRIPT</div>
-                <img src="./images/E -market.jpg" alt="Photo sample of my proposed E-market App">
-                <a href="https://github.com/Pasik-En/ETTP-group-19--project.git">Github</a>
+    <h2 class="section-title">My Projects</h2>
 
-                <a href="https://pasik-en.github.io/ETTP-group-19--project/">Live Demo</a>
-             </div>
-        </section>
+    <div class="projects-grid">
+
+        <article class="card">
+            <div class="center">
+                <h3>Portfolio Website</h3>
+                <p>My Personal Profile. Coming soon</p>
+
+                <img src="./images/image.png"
+                     alt="Portfolio website">
+            </div>
+
+            <div class="prj-link">
+                <a href="https://github.com/Pasik-En/personal-project-html.git" title="github-link" target="_blank">
+                    Github
+                </a>
+
+                <a href="https://pasik-en.github.io/ndu-paschal-portfolio/" title="github-link" target="_blank">
+                    Live Demo
+                </a>
+            </div>
+        </article>
+
+        <article class="card">
+            <div class="center">
+                <h3>My HTML Team Project</h3>
+
+                <p>
+                    Sample of my Team Proposed E-market App
+                </p>
+
+                <img src="./images/E -market.jpg"
+                     alt="E-market App">
+            </div>
+
+            <div class="prj-link">
+                <a href="https://github.com/Pasik-En/ETTP-group-19--project.git" target="_blank" title="github-link">
+                    Github
+                </a>
+
+                <a href="https://pasik-en.github.io/ndu-paschal-portfolio/" target="_blank" title="github-link">
+                    Live Demo
+                </a>
+            </div>
+        </article>
+
+    </div>
+</section>
         
         <section id="contact">
              <h2 class="section-title"> Contact Me </h2>
@@ -182,8 +217,8 @@
     <footer>
         <div class="footer-links">
             <p>&copy;2026 Ndu Paschal. All Right reserved.</p>
-            <a href="https://www.facebook.com" title="Face-book" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-            <a href="https:www.tiktok.com" title="Tiktok" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+            <div><a href="https://www.facebook.com" title="Face-book" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https:www.tiktok.com" title="Tiktok" target="_blank"><i class="fa-brands fa-tiktok"></i></a></div>
         </div>
     </footer>
 
